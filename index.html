@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on linkedin -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>team item - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:#eee;
+}
+
+.active {
+  background-color: #4e63d7;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+<body>
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+
+</div>
+
+</body>
+</html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title title-left text-center text-lg-left">
+                     <h6 class="top-sep"></h6>
+                     <h1 class="top-sep"> <center><u> STUDENT BODY</u></center></h1>
+                      <h3 class="top-sep"> <center> Hall Council Members </center></h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="images/saurav.jpg" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Ray Jhonson</h5>
+                        <p class="text-uppercase mb-0">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Serena Whatson</h5>
+                        <p class="text-uppercase mb-0">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Dave Serene</h5>
+                        <p class="text-uppercase mb-0">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style type="text/css">
+body{margin-top:20px;
+background:#eee;
+}
+
+/* ===== ABOUT PAGE ===== */
+.team-item {
+  padding: 35px;
+  padding-right: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.team-item:after, .team-item:before {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+          box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.team-item:before {
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team-item:after {
+  height: 6px;
+  width: calc(100% - 30px);
+  background-color: #4e63d7;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team-item:hover:after {
+  height: 100%;
+}
+
+.team-item .img-holder {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.team-item .img-holder img {
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.team-item:hover .img-holder img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.team-item .socials {
+  position: absolute;
+}
+
+.team-item .socials a {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item .socials a:last-of-type {
+  margin-bottom: 0;
+}
+
+.team-item .team-content {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.team-item .team-content h5 {
+  color: #101f41;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.team-item .team-content p {
+  color: #4e63d7;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-item:hover .team-content h5, .team-item:hover .team-content p {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.socials a {
+    width: 35px;
+    height: 35px;
+    background-color: #6893e1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+    box-shadow: 0 3px 2px 0 #516cd9;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on linkedin -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>team item - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Ray Jhonson</h5>
+                        <p class="text-uppercase mb-0">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Serena Whatson</h5>
+                        <p class="text-uppercase mb-0">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Dave Serene</h5>
+                        <p class="text-uppercase mb-0">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style type="text/css">
+body{margin-top:20px;
+background:#eee;
+}
+
+/* ===== ABOUT PAGE ===== */
+.team-item {
+  padding: 35px;
+  padding-right: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.team-item:after, .team-item:before {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+          box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.team-item:before {
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team-item:after {
+  height: 6px;
+  width: calc(100% - 30px);
+  background-color: #4e63d7;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team-item:hover:after {
+  height: 100%;
+}
+
+.team-item .img-holder {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.team-item .img-holder img {
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.team-item:hover .img-holder img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.team-item .socials {
+  position: absolute;
+}
+
+.team-item .socials a {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item .socials a:last-of-type {
+  margin-bottom: 0;
+}
+
+.team-item .team-content {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.team-item .team-content h5 {
+  color: #101f41;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.team-item .team-content p {
+  color: #4e63d7;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-item:hover .team-content h5, .team-item:hover .team-content p {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.socials a {
+    width: 35px;
+    height: 35px;
+    background-color: #6893e1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+    box-shadow: 0 3px 2px 0 #516cd9;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on linkedin -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>team item - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title title-left text-center text-lg-left">
+                    <h1></h1>
+                    <h6></h6>
+                    <h3 class="top-sep"><center>Hall Council Members<center></h3>
+                      <h1></h1>
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Ray Jhonson</h5>
+                        <p class="text-uppercase mb-0">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Serena Whatson</h5>
+                        <p class="text-uppercase mb-0">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Dave Serene</h5>
+                        <p class="text-uppercase mb-0">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style type="text/css">
+body{margin-top:20px;
+background:#eee;
+}
+
+/* ===== ABOUT PAGE ===== */
+.team-item {
+  padding: 35px;
+  padding-right: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.team-item:after, .team-item:before {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+          box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.team-item:before {
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team-item:after {
+  height: 6px;
+  width: calc(100% - 30px);
+  background-color: #4e63d7;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team-item:hover:after {
+  height: 100%;
+}
+
+.team-item .img-holder {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.team-item .img-holder img {
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.team-item:hover .img-holder img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.team-item .socials {
+  position: absolute;
+}
+
+.team-item .socials a {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item .socials a:last-of-type {
+  margin-bottom: 0;
+}
+
+.team-item .team-content {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.team-item .team-content h5 {
+  color: #101f41;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.team-item .team-content p {
+  color: #4e63d7;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-item:hover .team-content h5, .team-item:hover .team-content p {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.socials a {
+    width: 35px;
+    height: 35px;
+    background-color: #6893e1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+    box-shadow: 0 3px 2px 0 #516cd9;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on linkedin -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>team item - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Ray Jhonson</h5>
+                        <p class="text-uppercase mb-0">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Serena Whatson</h5>
+                        <p class="text-uppercase mb-0">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Dave Serene</h5>
+                        <p class="text-uppercase mb-0">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style type="text/css">
+body{margin-top:20px;
+background:#eee;
+}
+
+/* ===== ABOUT PAGE ===== */
+.team-item {
+  padding: 35px;
+  padding-right: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.team-item:after, .team-item:before {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+          box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.team-item:before {
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team-item:after {
+  height: 6px;
+  width: calc(100% - 30px);
+  background-color: #4e63d7;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team-item:hover:after {
+  height: 100%;
+}
+
+.team-item .img-holder {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.team-item .img-holder img {
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.team-item:hover .img-holder img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.team-item .socials {
+  position: absolute;
+}
+
+.team-item .socials a {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item .socials a:last-of-type {
+  margin-bottom: 0;
+}
+
+.team-item .team-content {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.team-item .team-content h5 {
+  color: #101f41;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.team-item .team-content p {
+  color: #4e63d7;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-item:hover .team-content h5, .team-item:hover .team-content p {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.socials a {
+    width: 35px;
+    height: 35px;
+    background-color: #6893e1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+    box-shadow: 0 3px 2px 0 #516cd9;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on linkedin -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>team item - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title title-left text-center text-lg-left">
+                  <h1></h1>
+                  <h6></h6>
+                    <h3 class="top-sep"><center>Hall Council Members<center></h3>
+                      <h1></h1>
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Ray Jhonson</h5>
+                        <p class="text-uppercase mb-0">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Serena Whatson</h5>
+                        <p class="text-uppercase mb-0">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Dave Serene</h5>
+                        <p class="text-uppercase mb-0">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style type="text/css">
+body{margin-top:20px;
+background:#eee;
+}
+
+/* ===== ABOUT PAGE ===== */
+.team-item {
+  padding: 35px;
+  padding-right: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.team-item:after, .team-item:before {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+          box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.team-item:before {
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team-item:after {
+  height: 6px;
+  width: calc(100% - 30px);
+  background-color: #4e63d7;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team-item:hover:after {
+  height: 100%;
+}
+
+.team-item .img-holder {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.team-item .img-holder img {
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.team-item:hover .img-holder img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.team-item .socials {
+  position: absolute;
+}
+
+.team-item .socials a {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item .socials a:last-of-type {
+  margin-bottom: 0;
+}
+
+.team-item .team-content {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.team-item .team-content h5 {
+  color: #101f41;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.team-item .team-content p {
+  color: #4e63d7;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-item:hover .team-content h5, .team-item:hover .team-content p {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.socials a {
+    width: 35px;
+    height: 35px;
+    background-color: #6893e1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+    box-shadow: 0 3px 2px 0 #516cd9;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on linkedin -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>team item - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+<div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Ray Jhonson</h5>
+                        <p class="text-uppercase mb-0">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Serena Whatson</h5>
+                        <p class="text-uppercase mb-0">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="team-item">
+                    <div class="mb-30 position-relative d-flex align-items-center">
+                            <span class="socials d-inline-block">
+                                <a href="#" class="zmdi zmdi-facebook"></a>
+                                <a href="#" class="zmdi zmdi-linkedin"></a>
+                                <a href="#" class="zmdi zmdi-email"></a>
+
+                            </span>
+                        <span class="img-holder d-inline-block">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="Team">
+                            </span>
+                    </div>
+                    <div class="team-content">
+                        <h5 class="mb-2">Dave Serene</h5>
+                        <p class="text-uppercase mb-0">CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style type="text/css">
+body{margin-top:20px;
+background:#eee;
+}
+
+/* ===== ABOUT PAGE ===== */
+.team-item {
+  padding: 35px;
+  padding-right: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.team-item:after, .team-item:before {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+          box-shadow: 0 5px 30px 0 rgba(39, 39, 39, 0.15);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.team-item:before {
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  right: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team-item:after {
+  height: 6px;
+  width: calc(100% - 30px);
+  background-color: #4e63d7;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team-item:hover:after {
+  height: 100%;
+}
+
+.team-item .img-holder {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.team-item .img-holder img {
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.team-item:hover .img-holder img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.team-item .socials {
+  position: absolute;
+}
+
+.team-item .socials a {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item .socials a:last-of-type {
+  margin-bottom: 0;
+}
+
+.team-item .team-content {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.team-item .team-content h5 {
+  color: #101f41;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.team-item .team-content p {
+  color: #4e63d7;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.team-item:hover .team-content h5, .team-item:hover .team-content p {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.socials a {
+    width: 35px;
+    height: 35px;
+    background-color: #6893e1;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+    box-shadow: 0 3px 2px 0 #516cd9;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #555;
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="footer">
+  <h1 style="color: lightblue;"><center> <u>Meghnad Saha Hall of Residence</u><center> </h1>
+    <h5 style="color:lightblue;"><center><u>Website Developers</u> <center> </h5>
+      <p style="color:white;">TRIDEV RAPETI(19MA20040) ,  SEELAM SHIVA SURYA (17EE10042)  ,  BINAY PRAKASH BARLA (17MF10008)  , VADHTHYA ANIKETH (19EC10069) </p>
+        <p> Gajula Sai Chaitanya (18CS30018)  ,  Divyansh Gupta (18BT30006)  ,  Gundupogula Pruthvi Raj (18EC10019)</p>
+               <hr style="width:80%;" >
+
+<h6 style="color:yellow;"><center>   Meghnad Saha Hall of Residence IIT Khragpur,Kharagpur,West Bengal 721302 </center> </h6>
+<h6 style="color:yellow;"><center>   Security/Office Phone: +91 3222-2-811-80/82 </center> </h6>
+</div>
+
+</body>
+</html>
+
+</html>
